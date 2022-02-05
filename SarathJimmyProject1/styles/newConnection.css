@@ -70,11 +70,13 @@ footer {
 .footernav{
     text-align: right;
     height: fit-content;
+    list-style: none;
 }
 
 .footer li, a
 {
     line-height:40px;
     text-decoration: underline;
+    list-style: none;
 
 }

@@ -28,6 +28,7 @@ main {
     margin:0;
     padding:0;
     display:inline-block;
+    list-style: none;
 }
 
 .navbar li, .gennavbar li , .footer li{
@@ -70,12 +71,14 @@ footer {
 .footernav{
     text-align: right;
     height: fit-content;
+    list-style: none;
 }
 
 .footer li a
 {
     line-height:40px;
     text-decoration: underline;
+    list-style: none;
 
 }
 
