@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ITIS4166Project1</title>
+    <link href="styles/connection.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+    <a href="index.html"><img src="images/BangingRaver-logos.jpeg" class="logo" alt="" ></a>
+     <ul>   
+    <li><a href="#">Log In</a> </li>
+    <li><a href="#">Sign Up</a> </li>
+    <li><a href="newConnection.html">Add A Rave</a></li>
+    </ul>
+</nav>
+    <nav class="gennavbar">
+        <a href="connections.html">Look For A Rave</a>
+    </nav>
+    </header>
+
+
+    <form>
+        <h3>Add A Rave</h3>
+        <label for="title">Title: </label>
+        <input type="text" id="title" name="title"><br><br>
+        <label for="host">Host: </label>
+        <input type="text" id="host" name="host"><br><br>
+        <label for="details">Details: </label>
+        <textarea type="text" id="details" name="details"></textarea><br><br>
+        <label for="where">Where: </label>
+        <input type="text" id="where" name="where"><br><br>
+        <label for="when">When: </label>
+        <input type="date" id="when" name="when" min="2022-01-01" max="2023-12-31"><br><br>
+        <label for="start">Start: </label>
+        <input type="time" id="start" name="start" required><br><br>
+        <label for="end">End: </label>
+        <input type="time" id="start" name="start" required><br><br>
+        <label for="imageurl">Image URL: </label>
+        <input type="text" id="imageurl" name="imageurl"><br><br>
+        <input type="submit" onclick="windows.location='connections.html'" value="Add Rave">
+
+    </form>
+
+
+    <footer> 
+        <ul class="footer">
+        <img src="images/BangingRaver-logos.jpeg" height="150" width="150" alt="">
+        <nav class="footernav">
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About Us</a></li>
+        </nav>
+        <li><p class="center">All rights reserved to Raver LLC</p></li>
+    </ul>
+    </footer>
+
+</body>
+
+</html>
+ 
